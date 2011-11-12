@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>WwwJohnmarkkearneyCom</title>
+  <title><%= controller.controller_name.titlecase %> - johnmarkkearney.com</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -11,4 +11,6 @@
 <%= yield %>
 
 </body>
+
+<%= render 'analytics' %>
 </html>
