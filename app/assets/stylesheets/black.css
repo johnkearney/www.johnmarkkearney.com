@@ -1,6 +1,12 @@
 body {
-  color: white;
   background: black;
+  font-family: 'Trebuchet MS', 'Arial';
+  color: silver;
+}
+
+a:link {
+  text-decoration: none;
+  color: silver;
 }
 
 div.centered {
@@ -10,8 +16,8 @@ div.centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 200px;
-  width: 200px;
-  margin-top: -100px;
-  margin-left: -100px;
+  height: 250px;
+  width: 300px;
+  margin-top: -125px;
+  margin-left: -150px;
 }
